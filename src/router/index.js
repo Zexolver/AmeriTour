@@ -8,25 +8,25 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
-      meta: {title: 'Phone Website'} // Custom data for the route
+      meta: {title: 'AmeriTour'} // Custom data for the route
     },
     {
-      path: '/cyberdecks',
-      name: 'cyberdecks',
-      component: () => import('../views/CyberdecksView.vue'), // Lazy-loading
-      meta: {title: 'Cyberdeck Section'} 
+      path: '/Deathvalley',
+      name: 'Deathvalley',
+      component: () => import('../views/DeathvalleyView.vue'), // Lazy-loading
+      meta: {title: 'Deathvalley, California'} 
     },
     {
-      path: '/linux-phones',
-      name: 'linux-phones',
-      component: () => import('../views/LinuxPhonesView.vue'), // Lazy-loading
-      meta: {title: 'Linux Phones Section'} 
+      path: '/Hawaii',
+      name: 'Hawaii',
+      component: () => import('../views/HawaiiView.vue'), // Lazy-loading
+      meta: {title: 'Hawaii'} 
     },
     {
-      path: '/lora-phones',
-      name: 'lora-phones',
-      component: () => import('../views/LoraPhonesView.vue'), // Lazy-loading
-      meta: {title: 'Lora Phones Section'} 
+      path: '/Alaska',
+      name: 'Alaska',
+      component: () => import('../views/AlaskaView.vue'), // Lazy-loading
+      meta: {title: 'Alaska'} 
     }
   ],
 })

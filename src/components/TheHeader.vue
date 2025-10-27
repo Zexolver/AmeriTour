@@ -6,7 +6,7 @@ const route = useRoute();
 
 /* This computed property will dynamically change the 
    title based on the current page's route meta info. */
-const pageTitle = computed(() => route.meta.title || 'Phone Website');
+const pageTitle = computed(() => route.meta.title || 'AmeriTour');
 </script>
 
 <template>
@@ -14,10 +14,10 @@ const pageTitle = computed(() => route.meta.title || 'Phone Website');
         <h1 id="Nav_Title">{{ pageTitle }}</h1>
         <ul>
             <li><RouterLink to="/">Home</RouterLink></li>
-            <li><RouterLink to="/cyberdecks">Cyberdecks</RouterLink></li>
-            <li><RouterLink to="/linux-phones">Linux Phones</RouterLink></li>
-            <li><RouterLink to="/lora-phones">Lora Phones</RouterLink></li>
-            <li><a href="https://github.com/Zexolver/vue-PaC_Website" target="_blank">Source Code</a></li>
+            <li><RouterLink to="/Deathvalley">Deathvalley</RouterLink></li>
+            <li><RouterLink to="/Hawaii">Hawaii</RouterLink></li>
+            <li><RouterLink to="/Alaska">Alaska</RouterLink></li>
+            <li><a href="https://github.com/Zexolver/AmeriTour" target="_blank">Source Code</a></li>
         </ul>
     </div>
 </template>
