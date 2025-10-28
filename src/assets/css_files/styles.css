@@ -20,11 +20,15 @@ body {
 background-color: #2e0343;
 overflow: hidden;
 border-radius: 45px;
-margin-left: 2%;
+margin-left: 25%;
+margin-right: 25%;
+margin-top: 10%;
+align-items: center;
+}
+.margins1{
+    margin-left: 2%;
 margin-right: 2%;
 margin-top: 1%;
-align-items: center;
-float: center;
 }
 #centered-flag{
     text-align: center;
@@ -76,9 +80,13 @@ footer{
 }
 .small-img{
     
-    size: 40%;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+    height:auto;
+    border-radius: 15px;
+    margin-bottom: 3%;
 }
 @media (max-width: 750px) {
 .overview, .account {
