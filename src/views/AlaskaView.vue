@@ -1,13 +1,9 @@
 <template>
     <div class="Gray_Box">
         <h2 id="Index_EC">
-            The Awesome-sauce
-            <br>
-            <img src="../assets/images/lora_phones/lora-phone-radio-transparent.png" scale="10%" class="small-img"></img>
-            <br>
-            Lora Phone
+            Alaskan USA 
         </h2>
-        <div class="box">An Android phone modified to have connected LoRa module into it.</div>
-        <div class="box">Also known as "Ham radios" sometimes.</div>
+        <div class="box">A part of the USA way up north where it is very cold.</div>
+        <div class="box">Quite the opposite of Hawaii</div>
     </div>
 </template>
