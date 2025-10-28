@@ -6,7 +6,7 @@
     padding: 0;
 }
 #Gradient_1{
-    background-image: linear-gradient(to right, rgb(95, 107, 97) , rgb(75, 156, 95));
+    background-image: linear-gradient(to left, rgb(111, 32, 32) , rgb(24, 152, 163));
 }
 body, html, #app{
     height: 100%;
@@ -17,9 +17,9 @@ body {
    background-color: rgba(85, 92, 83, 0.856);
 }
 .Gray_Box {
-background-color: #333;
+background-color: #2e0343;
 overflow: hidden;
-border-radius: 15px;
+border-radius: 45px;
 margin-left: 25%;
 margin-right: 25%;
 margin-top: 15%;
@@ -33,7 +33,7 @@ margin-top: 15%;
 }
 footer{
   text-align: center;
-  background-color: #333;
+  background-color: #2a074f;
   margin-bottom: 0%;
 }
 .multi-img{

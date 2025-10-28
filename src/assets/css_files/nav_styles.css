@@ -9,12 +9,16 @@ ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
-border-radius: 5px;
+padding-left: 1%;
+border-radius: 15px;
+}
+li{
+    padding-inline: 2%;
 }
 .topnav {
-background-color: #333;
+background-color: #480a7492;
 overflow: hidden;
-border-radius: 15px;
+border-radius: 35px;
 margin-left: 0.5%;
 margin-right: 0.5%;
 }
@@ -25,6 +29,7 @@ text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 font-size: 17px;
+border-radius: 15px;
 }
 .topnav a:hover {
 background-color: #ddd;
@@ -32,12 +37,12 @@ color: black;
 transition: 0.2s;
 }
 .topnav a.router-link-exact-active {
-background-color: #04AA6D;
+background-color: #05b7cb;
 color: white;
 }
 .topnav a.router-link-exact-active:hover {
-background-color: #04a067;
-color: rgb(0, 0, 0);
+background-color: #0455a0;
+/*color: rgb(0, 0, 0);*/
 }
 @media (max-width: 750px) {
 .nav-items {
