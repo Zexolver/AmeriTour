@@ -14,19 +14,19 @@ const router = createRouter({
       path: '/Deathvalley',
       name: 'Deathvalley',
       component: () => import('../views/DeathvalleyView.vue'), // Lazy-loading
-      meta: {title: 'Deathvalley, California'} 
+      meta: {title: 'AmeriTour - Deathvalley, California'} 
     },
     {
       path: '/Hawaii',
       name: 'Hawaii',
       component: () => import('../views/HawaiiView.vue'), // Lazy-loading
-      meta: {title: 'Hawaii'} 
+      meta: {title: 'AmeriTour - Hawaii'} 
     },
     {
       path: '/Alaska',
       name: 'Alaska',
       component: () => import('../views/AlaskaView.vue'), // Lazy-loading
-      meta: {title: 'Alaska'} 
+      meta: {title: 'AmeriTour - Alaska'} 
     }
   ],
 })
