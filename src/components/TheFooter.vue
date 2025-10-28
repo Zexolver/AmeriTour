@@ -2,7 +2,7 @@
     <footer>
         Footer
         <br>
-        <a href="https://github.com/Zexolver/vue-PaC_Website">Source Code</a>
+        <a href="https://github.com/Zexolver/AmeriTour">Source Code</a>
     </footer>
 </template>
 
