@@ -20,8 +20,8 @@ body {
 background-color: #2e0343;
 overflow: hidden;
 border-radius: 45px;
-margin-left: 1%;
-margin-right: 3%;
+margin-left: 2%;
+margin-right: 2%;
 margin-top: 1%;
 align-items: center;
 float: center;
@@ -38,6 +38,17 @@ float: center;
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.aParent div{
+    float: center;
+    /*clear: none;*/ 
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    place-content: center;
+    text-align: center;
 }
 #Index_EC{
     margin-top: 3%;
