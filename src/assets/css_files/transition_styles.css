@@ -22,7 +22,17 @@
       transform: translateY(50px); /* Start position (below) */
       animation: slideUp 1s ease-out forwards; /* Slide-up animation */
     }
-
+    .box-2{
+      background-color: #9a2222;
+      color: white;
+      display:inline-flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2rem;
+      opacity: 0; /* Initially hidden */
+      transform: translateY(50px); /* Start position (below) */
+      animation: slideUp 1s ease-out forwards; /* Slide-up animation */
+    }
     /* Add delay for each box */
     .box:nth-child(1) {
       animation-delay: 0.2s;

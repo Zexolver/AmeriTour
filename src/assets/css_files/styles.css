@@ -20,9 +20,11 @@ body {
 background-color: #2e0343;
 overflow: hidden;
 border-radius: 45px;
-margin-left: 25%;
-margin-right: 25%;
-margin-top: 15%;
+margin-left: 1%;
+margin-right: 3%;
+margin-top: 1%;
+align-items: center;
+float: center;
 }
 #centered-flag{
     text-align: center;
@@ -30,12 +32,27 @@ margin-top: 15%;
     border-radius: 25px;
     margin-bottom: 2%;
 }
+.aParent {
+    float: center;
+    /*clear: none;*/ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 #Index_EC{
     margin-top: 3%;
     margin-bottom: 3%;
     text-align: center;
     font-size: 350%;
     transition: 7s;
+}
+#MultiEC{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 350%;
+    transition: 7s;
+    display: inline-flex;
 }
 footer{
   text-align: center;
