@@ -25,6 +25,6 @@ import TheFooter from './components/TheFooter.vue'
    We're using global CSS for now,
    but this is here for future use. */
    main{
-    min-height: calc(100vh - 150px); /* Simple calculation to help footer stay down */
+    min-height: calc(100vh - 200px); /* Simple calculation to help footer stay down */
    }
 </style>
