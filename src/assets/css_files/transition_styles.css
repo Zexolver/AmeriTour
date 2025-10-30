@@ -33,6 +33,16 @@
       transform: translateY(50px); /* Start position (below) */
       animation: slideUp 1s ease-out forwards; /* Slide-up animation */
     }
+    .box-3{
+      background-color: #152e80;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0; /* Initially hidden */
+      transform: translateY(50px); /* Start position (below) */
+      animation: slideUp 1s ease-out forwards; /* Slide-up animation */
+    }
     /* Add delay for each box */
     .box:nth-child(1) {
       animation-delay: 0.2s;

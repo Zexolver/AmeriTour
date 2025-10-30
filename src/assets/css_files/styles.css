@@ -88,6 +88,19 @@ display: block;
     border-radius: 15px;
     margin-bottom: 3%;
 }
+.places-header1{
+    text-align: center;
+    margin-left: -35%;
+    margin-top: 5%;
+    font-size: 250%;
+}
+.pad2{
+    margin: 2%;
+    padding: 2%;
+    text-align: left;
+    font-size: 150%;
+    background-color: rgb(65, 65, 65);
+}
 @media (max-width: 750px) {
 .overview, .account {
 flex-direction: column;
