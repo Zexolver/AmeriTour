@@ -7,4 +7,11 @@
         <div class="box">A very small portion of the USA famous for its beauty</div>
         <div class="box">An exact opposite from Alaska</div>
     </div>
+        <div style="background-color: rgb(65, 65, 65);">
+        <h3 class="places-header1 box-3">Hawaii</h3>
+        <div class="pad2">
+            Hawaii is a nice tropical place to go to for vacation,
+            being located in the middle of the Pacific Ocean. 
+        </div>
+    </div>
 </template>
